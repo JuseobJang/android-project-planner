@@ -29,6 +29,13 @@
    5. Search Bar.
      - When you want search information, you search the information through search bar then you can see the  
        information at new screen.
-   
-   
+
+* etc :
+    1. Design app icon image. 
+    2. Make exit button.   
+    3. Minimun compatibility is at least Lollipop.
+    4. Design Backgroud image and button.
+    5. Make intro Screen.
+ 
+ 
  Thank you for Reading!!! :)
