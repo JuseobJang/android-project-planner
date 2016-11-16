@@ -1,6 +1,6 @@
 # BOTDUO
 
-<img src="https://octodex.github.com/images/welcometocat.png" height="200">
+<img src="http://www.nam.or.kr/wp/wp-content/uploads/2012/12/android.png" height="200">
 
 
 * Team name : BOTDUO
