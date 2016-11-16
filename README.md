@@ -1,6 +1,6 @@
 # BOTDUO
 
-<img src="http://www.nam.or.kr/wp/wp-content/uploads/2012/12/android.png" height="400">
+<img src="http://www.nam.or.kr/wp/wp-content/uploads/2012/12/android.png" height="300">
 
 
 * Team name : BOTDUO
