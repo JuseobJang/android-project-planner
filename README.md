@@ -14,16 +14,13 @@
    
 
 * Functions : 
+<img src="https://zonblog.com/wp-content/uploads/2016-years-calendar.jpg" height="200">
+<img src="   https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQwRXBC1XaSGu5DBNdNaWNQs1KT0w1W1qzJQPyRw51GIlD6-OCDxYb0dPE" height="200">
    1. Calendar widget.
-   <img src="https://zonblog.com/wp-content/uploads/2016-years-calendar.jpg" height="200">
-
      - When app is started, It shows the 'calendar widget'.  
    2. Weather information.
      - When you click weather button, you can see new screen with weather information.
    3. Alarm.
-   <img src="   https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQwRXBC1XaSGu5DBNdNaWNQs1KT0w1W1qzJQPyRw51GIlD6-OCDxYb0dPE
-" height="200">
-
      - When you click Alarm button, you can set the alarm.
      - you can set the alarm song.
    4. Schedule Management.
