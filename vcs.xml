@@ -6,8 +6,12 @@
           <option name="url" value="https://github.com/chlwodud77/2016CSEBOTDUO.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/wntjq68/BOTDUO.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="$USER_HOME$/AndroidStudioProjects" />
+    <option name="cloneParentDir" value="C:\Users\user\Desktop\butduo4" />
   </component>
 </application>
