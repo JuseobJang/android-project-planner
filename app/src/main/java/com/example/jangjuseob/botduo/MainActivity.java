@@ -1,5 +1,6 @@
 package com.example.jangjuseob.botduo;
 
+import android.app.SearchManager;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -8,6 +9,9 @@ import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.Button;
+import android.widget.EditText;
+
+import static com.example.jangjuseob.botduo.R.id.editText;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -16,23 +20,47 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-//        WebView WebView01 (WebView) findViewById(R.id.WebView_weather);
-//        WebView01.setWebViewClient(new WebViewClient());
-//
-//        WebSettings webSettings = WebView01.getSettings();
-//        webSettings.setJavaScriptEnabled(true);
-//        WebView01.loadUrl("http://m.naver.com");
+
+        EditText edit = (EditText) findViewById(R.id.editText);
+//        String editText.getText().toString();
 
         Button button = (Button) findViewById(R.id.button);
-        button.setOnClickListener(new View.OnClickListener()
-        {
-            public void onClick(View v)
-            {
+        button.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, WeatherActivity.class);
                 startActivity(intent);
 
             }
         });
+
+//        public void onButton2Clicked(View v){
+//
+//
+//
+//            Intent intent = new Intent(Intent.ACTION_WEB_SEARCH);
+//            intent.putExtra(SearchManager.QUERY,editText.getText().toString());
+//            startActivity(intent);
+//        }
+
+
 //
     }
+
+
+//    Button button2 = (Button) findViewById(R.id.button5);
+//    button2.setOnClickListener(new View.OnClickListener()
+//
+//    {
+//        public void onClick (View v)
+//        {
+//            String data = edit.getText().toString();
+//            Intent intent = new Intent(Intent.ACTION_WEB_SEARCH);
+//            intent.putExtra(SearchManager.QUERY, data);
+//            startActivity(intent);
+//
+//        }
+//    }
+//
+//    );
+
 }
