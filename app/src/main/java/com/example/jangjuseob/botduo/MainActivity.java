@@ -1,8 +1,10 @@
 package com.example.jangjuseob.botduo;
 
 import android.app.SearchManager;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.net.Uri;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -17,18 +19,12 @@ import static com.example.jangjuseob.botduo.R.id.info;
 
 public class MainActivity extends AppCompatActivity {
 
-//    EditText edit = (EditText) findViewById(R.id.editText);
-//    String info  = edit.getText().toString();
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
         getSupportActionBar().setIcon(R.mipmap.ic_launcher);
-
-
-
-
 
         final EditText edit = (EditText) findViewById(R.id.editText);
         String info  = edit.getText().toString();
@@ -52,40 +48,30 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-
-
-
-//
     }
-//    EditText edit = (EditText) findViewById(R.id.editText);
-//    String info = edit.getText().toString();
-//
-//
-//    String info = edit.getText().toString();
-//    TextInfo inf = new TextInfo(info);
+    /* Exit popup event method*/
+    @Override
+    public void onBackPressed() {
+        String alertTitle = getResources().getString(R.string.app_name);
 
+        String buttonMessage = getResources().getString(R.string.msg);
 
+        String buttonYes = getResources().getString(R.string.btn_yes);
 
-//    public void onButton2Clicked(View v){
-//
-//
-//        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(inf.getText()));
-////        intent.putExtra(SearchManager.QUERY,edit.getText().toString());
-//        startActivity(intent);
-//    }
-
-//public class TextInfo{
-//    String info;
-//    public TextInfo(String s){
-//        info = s;
-//    }
-//
-//    public String getText(){
-//        return info;
-//    }
-//}
-
-
+        String buttonNo = getResources().getString(R.string.btn_no);
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        builder.setTitle(alertTitle);
+        builder.setMessage(buttonMessage);
+        builder.setNegativeButton(buttonNo, null);
+        builder.setPositiveButton(buttonYes, new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                moveTaskToBack(true);
+                finish();
+            }
+        });
+        builder.show();
+    }
 
 
 }
