@@ -20,5 +20,7 @@ public class IntroActivity extends AppCompatActivity {
                 finish();
             }
         }, 3000);
+        getSupportActionBar().setDisplayShowHomeEnabled(true);
+        getSupportActionBar().setIcon(R.mipmap.ic_launcher);
     }
 }

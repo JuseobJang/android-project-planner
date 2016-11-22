@@ -48,5 +48,7 @@ public class WeatherActivity extends AppCompatActivity {
 
             }
         });
+        getSupportActionBar().setDisplayShowHomeEnabled(true);
+        getSupportActionBar().setIcon(R.mipmap.ic_launcher);
     }
 }
