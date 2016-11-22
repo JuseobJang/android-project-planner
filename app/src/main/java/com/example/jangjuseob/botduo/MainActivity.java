@@ -12,7 +12,7 @@ import android.webkit.WebViewClient;
 import android.widget.Button;
 import android.widget.EditText;
 
-import static com.example.jangjuseob.botduo.R.id.editText;
+//import static com.example.jangjuseob.botduo.R.id.editText;
 import static com.example.jangjuseob.botduo.R.id.info;
 
 public class MainActivity extends AppCompatActivity {
@@ -23,6 +23,9 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        getSupportActionBar().setDisplayShowHomeEnabled(true);
+
+
 
         final EditText edit = (EditText) findViewById(R.id.editText);
         String info  = edit.getText().toString();
