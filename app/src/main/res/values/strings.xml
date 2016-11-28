@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">BOTDUO</string>
+    <string name="msg">어플을 종료?</string>
+    <string name="btn_yes">예</string>
+    <string name="btn_no">아니오</string>
 </resources>
