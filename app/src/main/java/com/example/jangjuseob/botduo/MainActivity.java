@@ -3,19 +3,14 @@ package com.example.jangjuseob.botduo;
 import android.app.SearchManager;
 import android.content.DialogInterface;
 import android.content.Intent;
-import android.net.Uri;
+import android.os.Bundle;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.view.View;
-import android.webkit.WebSettings;
-import android.webkit.WebView;
-import android.webkit.WebViewClient;
 import android.widget.Button;
 import android.widget.EditText;
 
 //import static com.example.jangjuseob.botduo.R.id.editText;
-import static com.example.jangjuseob.botduo.R.id.info;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -46,12 +41,22 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        final Button button2 = (Button) findViewById(R.id.button5);
+        Button button2 = (Button) findViewById(R.id.button5);
         button2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(Intent.ACTION_WEB_SEARCH);
                 intent.putExtra(SearchManager.QUERY,edit.getText().toString());
+                startActivity(intent);
+
+            }
+        });
+
+        Button button7 = (Button) findViewById(R.id.button7);
+        button7.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,HtmlActivity.class);
                 startActivity(intent);
 
             }
