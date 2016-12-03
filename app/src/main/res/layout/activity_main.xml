@@ -15,27 +15,8 @@
         android:layout_height="wrap_content"
         android:id="@+id/calendarView2"
         android:layout_centerVertical="true"
-        android:layout_alignParentStart="true" />
-
-    <Button
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:layout_marginEnd="12dp"
-        android:id="@+id/button5"
-        android:layout_above="@+id/calendarView2"
-        android:layout_alignEnd="@+id/calendarView2"
-        android:onClick="onButton2Clicked"
-        android:background="@drawable/searchbutton" />
-
-    <EditText
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:inputType="textPersonName"
-        android:ems="10"
-        android:layout_above="@+id/calendarView2"
-        android:layout_toStartOf="@+id/button5"
-        android:layout_marginEnd="13dp"
-        android:id="@+id/editText" />
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="16dp" />
 
     <Button
         android:text="Weather"
@@ -47,23 +28,42 @@
         android:layout_centerHorizontal="true" />
 
     <Button
+        android:text="Query"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:id="@+id/button6"
+        tools:background="@drawable/buttonframe2"
+        android:background="@drawable/buttonframe2"
+        android:layout_below="@+id/calendarView2"
+        android:layout_alignEnd="@+id/calendarView2"
+        android:layout_marginEnd="22dp" />
+
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/button5"
+        android:onClick="onButton2Clicked"
+        android:background="@drawable/searchbutton"
+        android:layout_above="@+id/calendarView2"
+        android:layout_alignEnd="@+id/button6" />
+
+    <Button
         android:text="HTML"
         android:layout_height="50dp"
         android:id="@+id/button7"
         android:background="@drawable/buttonframe"
         android:layout_width="80dp"
-        android:layout_marginStart="25dp"
+        android:layout_marginStart="27dp"
         android:layout_below="@+id/calendarView2"
         android:layout_alignParentStart="true" />
 
-    <Button
-        android:text="Query"
-        android:layout_width="80dp"
-        android:layout_height="50dp"
-        android:id="@+id/button6"
-        tools:background="@drawable/buttonframe"
-        android:layout_below="@+id/calendarView2"
-        android:layout_alignEnd="@+id/button5"
-        android:layout_marginEnd="20dp" />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/editText"
+        android:layout_above="@+id/calendarView2"
+        android:layout_alignStart="@+id/button7" />
 
 </RelativeLayout>
