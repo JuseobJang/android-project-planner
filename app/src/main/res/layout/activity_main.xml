@@ -10,14 +10,6 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.jangjuseob.botduo.MainActivity">
 
-    <Button
-        android:text="Weather"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/button"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true" />
-
     <CalendarView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -26,14 +18,14 @@
         android:layout_alignParentStart="true" />
 
     <Button
-        android:text="검색"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
         android:layout_marginEnd="12dp"
         android:id="@+id/button5"
         android:layout_above="@+id/calendarView2"
         android:layout_alignEnd="@+id/calendarView2"
-        android:onClick="onButton2Clicked" />
+        android:onClick="onButton2Clicked"
+        android:background="@drawable/searchbutton" />
 
     <EditText
         android:layout_width="wrap_content"
@@ -49,16 +41,26 @@
         android:text="실시간"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:id="@+id/button6"
         android:layout_alignTop="@+id/button"
-        android:layout_alignEnd="@+id/button5"
-        android:id="@+id/button6" />
+        android:layout_alignEnd="@+id/button5" />
 
     <Button
         android:text="HTML"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:id="@+id/button7"
+        android:layout_marginStart="16dp"
         android:layout_alignParentBottom="true"
-        android:layout_alignStart="@+id/editText"
-        android:id="@+id/button7" />
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="Weather"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/button"
+        android:background="@drawable/weatherbutton"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
 
 </RelativeLayout>
