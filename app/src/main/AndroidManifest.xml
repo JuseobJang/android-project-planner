@@ -20,7 +20,8 @@
         <activity android:name=".MainActivity" />
         <activity android:name=".WeatherActivity" />
         <activity android:name=".QueryActivity" />
-        <activity android:name=".HtmlActivity"></activity>
+        <activity android:name=".HtmlActivity" />
+        <activity android:name=".PlanActivity"></activity>
     </application>
 
 </manifest>
