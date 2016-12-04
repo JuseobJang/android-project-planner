@@ -62,6 +62,16 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        Button plan = (Button) findViewById(R.id.plan);
+        plan.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,PlanActivity.class);
+                startActivity(intent);
+
+            }
+        });
+
     }
     /* Exit popup event method*/
     @Override
