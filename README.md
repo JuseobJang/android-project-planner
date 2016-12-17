@@ -49,6 +49,9 @@
     4. Design Backgroud image and button. (proceeding)
     5. Make intro Screen. (complete)
     
+* Future Plan
+   1. Making Planner completely.
+   2. Making Real Query Time completely. 
     
 * Android App Picture :
 
