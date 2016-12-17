@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.ListView;
 
 import java.util.ArrayList;
@@ -20,6 +21,8 @@ public class PlanActivity extends AppCompatActivity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_plan);
+
+        final EditText addplan = (EditText)findViewById(R.id.editText2);
 
         //빈데이터 리스트 생성
         final ArrayList<String> items = new ArrayList<String>();
@@ -39,7 +42,7 @@ public class PlanActivity extends AppCompatActivity {
                 count = adapter.getCount();
 
                 //아이템 추가.
-                items.add("LIST" + Integer.toString(count + 1));
+                items.add(Integer.toString(count + 1)+") " + addplan.getText().toString());
 
                 //Listview 갱신
                 adapter.notifyDataSetChanged();
