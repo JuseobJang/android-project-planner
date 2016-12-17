@@ -52,15 +52,15 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        Button button7 = (Button) findViewById(R.id.button7);
-        button7.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,HtmlActivity.class);
-                startActivity(intent);
-
-            }
-        });
+//        Button button7 = (Button) findViewById(R.id.button7);
+//        button7.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Intent intent = new Intent(MainActivity.this,HtmlActivity.class);
+//                startActivity(intent);
+//
+//            }
+//        });
 
         Button plan = (Button) findViewById(R.id.plan);
         plan.setOnClickListener(new View.OnClickListener() {
