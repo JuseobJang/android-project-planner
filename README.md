@@ -40,17 +40,9 @@
     
 * Protocol
 
-<img src ="https://github.com/wntjq68/BOTDUO/blob/master/Protocol%20picture/Screenshot_1481962664.png?raw=true" height="200">
+<img src ="https://github.com/wntjq68/BOTDUO/blob/master/Protocol%20picture/Screenshot_1481962664.png?raw=true" height="400"><img src ="https://github.com/wntjq68/BOTDUO/blob/master/Protocol%20picture/Screenshot_1481962697.png?raw=true" height="400"><img src ="https://github.com/wntjq68/BOTDUO/blob/master/Protocol%20picture/Screenshot_1481962703.png?raw=true" height="400">
 
-<img src ="https://github.com/wntjq68/BOTDUO/blob/master/Protocol%20picture/Screenshot_1481962697.png?raw=true" height="200">
-
-<img src ="https://github.com/wntjq68/BOTDUO/blob/master/Protocol%20picture/Screenshot_1481962703.png?raw=true" height="200">
-
-<img src ="https://github.com/wntjq68/BOTDUO/blob/master/Protocol%20picture/Screenshot_1481962714.png?raw=true" height="200">
-
-<img src ="https://github.com/wntjq68/BOTDUO/blob/master/Protocol%20picture/Screenshot_1481962725.png?raw=true" height="200">
-
-<img src ="https://github.com/wntjq68/BOTDUO/blob/master/Protocol%20picture/Screenshot_1481962758.png?raw=true" height="200">
+<img src ="https://github.com/wntjq68/BOTDUO/blob/master/Protocol%20picture/Screenshot_1481962714.png?raw=true" height="400"><img src ="https://github.com/wntjq68/BOTDUO/blob/master/Protocol%20picture/Screenshot_1481962725.png?raw=true" height="400"><img src ="https://github.com/wntjq68/BOTDUO/blob/master/Protocol%20picture/Screenshot_1481962758.png?raw=true" height="400">
  
  
  Thank you for Reading!!! :)
