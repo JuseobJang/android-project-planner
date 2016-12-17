@@ -13,6 +13,16 @@
    We use Android Studio for making this app.
    
 
+* Language :
+  
+  JAVA
+  
+* License :
+  
+  Apache 2.0
+
+
+
 * Functions : 
 
 
@@ -21,7 +31,7 @@
      - When app is started, It shows the 'calendar widget'.  
    2. Weather information. (complete)
      - When you click weather button, you can see new screen with weather information.
-   3. Alarm.(not complete)
+   3. Alarm.()
      - When you click Alarm button, you can set the alarm.
      - you can set the alarm song.
    4. Schedule Management. (proceeding)
@@ -29,6 +39,8 @@
    5. Search Bar. (complete)
      - When you want search information, you search the information through search bar then you can see the  
        information at new screen.
+       
+
 
 * etc :
     1. Design app icon image. (complete) 
@@ -38,7 +50,7 @@
     5. Make intro Screen. (complete)
     
     
-* Protocol
+* Android App Picture :
 
 <img src ="https://github.com/wntjq68/BOTDUO/blob/master/Protocol%20picture/Screenshot_1481962664.png?raw=true" height="400"><img src ="https://github.com/wntjq68/BOTDUO/blob/master/Protocol%20picture/Screenshot_1481962697.png?raw=true" height="400"><img src ="https://github.com/wntjq68/BOTDUO/blob/master/Protocol%20picture/Screenshot_1481962703.png?raw=true" height="400">
 
