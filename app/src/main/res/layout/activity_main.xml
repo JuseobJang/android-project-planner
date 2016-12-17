@@ -50,10 +50,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/plan"
-        android:layout_alignBottom="@+id/button"
         android:layout_alignParentStart="true"
-        android:layout_marginStart="31dp"
-        android:layout_marginBottom="21dp" />
+        android:layout_marginStart="31dp" />
 
     <Button
         android:text="Weather"
