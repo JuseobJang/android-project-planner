@@ -1,8 +1,7 @@
 package com.example.jangjuseob.botduo;
 
-import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
@@ -30,25 +29,6 @@ public class WeatherActivity extends AppCompatActivity {
 
             }
         });
-        Button button2 = (Button) findViewById(R.id.button3);
-        button2.setOnClickListener(new View.OnClickListener()
-        {
-            public void onClick(View v){
-                WebView01.goBack();
-
-
-            }
-        });
-        Button button3 = (Button) findViewById(R.id.button4);
-        button3.setOnClickListener(new View.OnClickListener()
-        {
-            public void onClick(View v){
-                WebView01.goForward();
-
-
-            }
-        });
-        getSupportActionBar().setDisplayShowHomeEnabled(true);
         getSupportActionBar().setIcon(R.mipmap.ic_launcher);
     }
 }
