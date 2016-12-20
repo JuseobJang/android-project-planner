@@ -28,6 +28,7 @@
 
 
 <img src="https://zonblog.com/wp-content/uploads/2016-years-calendar.jpg" height="200">
+  
    1. Calendar widget. (complete)
      - When app is started, It shows the 'calendar widget'.  
    2. Weather information. (complete)
@@ -56,9 +57,32 @@
     
 * Android App Picture :
 
-<img src ="https://github.com/wntjq68/BOTDUO/blob/master/Protocol%20picture/Screenshot_1481962664.png?raw=true" height="400"><img src ="https://github.com/wntjq68/BOTDUO/blob/master/Protocol%20picture/Screenshot_1481962697.png?raw=true" height="400"><img src ="https://github.com/wntjq68/BOTDUO/blob/master/Protocol%20picture/Screenshot_1481962703.png?raw=true" height="400">
+Icon image
 
-<img src ="https://github.com/wntjq68/BOTDUO/blob/master/Protocol%20picture/Screenshot_1481962714.png?raw=true" height="400"><img src ="https://github.com/wntjq68/BOTDUO/blob/master/Protocol%20picture/Screenshot_1481962725.png?raw=true" height="400"><img src ="https://github.com/wntjq68/BOTDUO/blob/master/Protocol%20picture/Screenshot_1481962758.png?raw=true" height="400">
- 
+<img src ="https://github.com/wntjq68/BOTDUO/blob/master/Protocol%20picture/Icon%20Image.png?raw=true" height="200"> <img src ="https://github.com/wntjq68/BOTDUO/blob/master/Protocol%20picture/Icon%20Image%20in%20phone.jpeg?raw=true" height="400">
+
+Intro
+
+<img src ="https://github.com/wntjq68/BOTDUO/blob/master/Protocol%20picture/Intro.jpeg?raw=true" height="400">
+
+Main
+
+<img src="https://github.com/wntjq68/BOTDUO/blob/master/Protocol%20picture/Main.jpeg?raw=true" height = "400"> 
+
+Planner
+
+<img src="https://github.com/wntjq68/BOTDUO/blob/master/Protocol%20picture/planner.jpeg?raw=true" height = "300"> <img src="https://github.com/wntjq68/BOTDUO/blob/master/Protocol%20picture/Planner_2.jpeg?raw=true" height="300"> <img src="https://github.com/wntjq68/BOTDUO/blob/master/Protocol%20picture/Planner_add.jpeg?raw=true" height ="300"> <img src= "https://github.com/wntjq68/BOTDUO/blob/master/Protocol%20picture/Planner_delete.jpeg?raw=true" height="300">
+
+Weather
+
+<img src="https://github.com/wntjq68/BOTDUO/blob/master/Protocol%20picture/Weather.jpeg?raw=true" height = "400">
+
+Search
+
+<img src="https://github.com/wntjq68/BOTDUO/blob/master/Protocol%20picture/Searching.jpeg?raw=true" height="400"> <img src ="https://github.com/wntjq68/BOTDUO/blob/master/Protocol%20picture/Search%20result.jpeg?raw=true" height = "400">
+
+Quit
+
+<img src="https://github.com/wntjq68/BOTDUO/blob/master/Protocol%20picture/Quit%20message.jpeg?raw=true" height="400">
  
  Thank you for Reading!!! :)
