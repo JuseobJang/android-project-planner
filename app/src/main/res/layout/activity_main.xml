@@ -10,15 +10,6 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.jangjuseob.botduo.MainActivity">
 
-    <Button
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:id="@+id/button5"
-        android:onClick="onButton2Clicked"
-        android:background="@drawable/searchbutton"
-        android:layout_above="@+id/calendarView2"
-        android:layout_alignEnd="@+id/button6" />
-
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -50,27 +41,39 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/plan"
-        android:layout_alignParentStart="true"
-        android:layout_marginStart="31dp" />
+        android:background="@drawable/buttonframe2"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="Query"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:id="@+id/button6"
+        tools:background="@drawable/buttonframe2"
+        android:background="@drawable/buttonframe2"
+        android:layout_alignBottom="@+id/plan"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true" />
 
     <Button
         android:text="Weather"
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:id="@+id/button"
-        android:background="@drawable/weatherbutton"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
-
-    <Button
-        android:text="실시간"
-        android:layout_width="80dp"
-        android:layout_height="50dp"
-        android:id="@+id/button6"
-        tools:background="@drawable/buttonframe2"
         android:background="@drawable/buttonframe2"
         android:layout_alignParentTop="true"
-        android:layout_alignEnd="@+id/calendarView2"
-        android:layout_marginEnd="21dp" />
+        android:layout_centerHorizontal="true"
+        android:layout_alignBottom="@+id/plan"
+        tools:layout_width="90dp" />
+
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/button5"
+        android:onClick="onButton2Clicked"
+        android:background="@drawable/searchbutton"
+        android:layout_above="@+id/calendarView2"
+        android:layout_alignStart="@+id/button6" />
 
 </RelativeLayout>
