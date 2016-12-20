@@ -10,7 +10,17 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
-//import static com.example.jangjuseob.botduo.R.id.editText;
+/**
+ *  <pre>
+ *  <b>History:</b>
+ *      최재영,장주섭 2016.12.20 중간작성
+ *
+ *  <b>설명:</b>
+ *      어플의 메인화면을 구성하고 제어하는 클래스
+ *  </pre>
+ * @author wntjq68(장주섭), chlwodud77(최재영)
+ * @version 1.0
+ */
 
 public class MainActivity extends AppCompatActivity {
 
@@ -21,11 +31,15 @@ public class MainActivity extends AppCompatActivity {
         getSupportActionBar().setDisplayShowHomeEnabled(true);
         getSupportActionBar().setIcon(R.mipmap.ic_launcher);
 
+
         final EditText edit = (EditText) findViewById(R.id.editText);
-        String info  = edit.getText().toString();
+
+
 
         Button button = (Button) findViewById(R.id.button);
         button.setOnClickListener(new View.OnClickListener() {
+            /**
+             * MainActivity 화면에 Weather 버튼을 누르면 WeatherActivity로 넘어가게 해주는 메소드*/
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, WeatherActivity.class);
                 startActivity(intent);
@@ -33,12 +47,17 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+
         Button button2 = (Button) findViewById(R.id.button5);
         button2.setOnClickListener(new View.OnClickListener() {
             @Override
+            /**
+             * MainActivity 화면에 검색버튼을 누르면 EditText에 입력된 내용을 받아
+             * 인텐트 객체에 전달하고 웹서치 기능을 불러와 입력된 내용을 검색해주는 메소드*/
             public void onClick(View v) {
+                String info  = edit.getText().toString(); // EditText 로부터 String info 변수에 입력된 내용을 저장
                 Intent intent = new Intent(Intent.ACTION_WEB_SEARCH);
-                intent.putExtra(SearchManager.QUERY,edit.getText().toString());
+                intent.putExtra(SearchManager.QUERY,info);
                 startActivity(intent);
 
             }
@@ -54,9 +73,12 @@ public class MainActivity extends AppCompatActivity {
 //            }
 //        });
 
+
         Button plan = (Button) findViewById(R.id.plan);
         plan.setOnClickListener(new View.OnClickListener() {
             @Override
+            /**
+             * MainAcitivity의 PLAN 버튼을 누르면 PlanActivity로 넘어가게 해주는 메소드 */
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this,PlanActivity.class);
                 startActivity(intent);
@@ -65,8 +87,10 @@ public class MainActivity extends AppCompatActivity {
         });
 
     }
-    /* Exit popup event method*/
+
     @Override
+    /**
+     *  Exit popup event method*/
     public void onBackPressed() {
         String alertTitle = getResources().getString(R.string.app_name);
 
@@ -81,6 +105,11 @@ public class MainActivity extends AppCompatActivity {
         builder.setNegativeButton(buttonNo, null);
         builder.setPositiveButton(buttonYes, new DialogInterface.OnClickListener() {
             @Override
+            /**
+             * '예'를 터치하면 앱을 종료해주는 메소드
+             * @param dialog
+             * @param which
+             */
             public void onClick(DialogInterface dialog, int which) {
                 moveTaskToBack(true);
                 finish();
