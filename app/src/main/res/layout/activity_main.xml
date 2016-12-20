@@ -10,34 +10,6 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.jangjuseob.botduo.MainActivity">
 
-    <CalendarView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/calendarView2"
-        android:layout_centerVertical="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginEnd="16dp" />
-
-    <Button
-        android:text="Weather"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:id="@+id/button"
-        android:background="@drawable/weatherbutton"
-        android:layout_below="@+id/calendarView2"
-        android:layout_centerHorizontal="true" />
-
-    <Button
-        android:text="Query"
-        android:layout_width="80dp"
-        android:layout_height="50dp"
-        android:id="@+id/button6"
-        tools:background="@drawable/buttonframe2"
-        android:background="@drawable/buttonframe2"
-        android:layout_below="@+id/calendarView2"
-        android:layout_alignEnd="@+id/calendarView2"
-        android:layout_marginEnd="22dp" />
-
     <Button
         android:layout_width="50dp"
         android:layout_height="50dp"
@@ -47,23 +19,58 @@
         android:layout_above="@+id/calendarView2"
         android:layout_alignEnd="@+id/button6" />
 
-    <Button
-        android:text="HTML"
-        android:layout_height="50dp"
-        android:id="@+id/button7"
-        android:background="@drawable/buttonframe"
-        android:layout_width="80dp"
-        android:layout_marginStart="27dp"
-        android:layout_below="@+id/calendarView2"
-        android:layout_alignParentStart="true" />
-
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:inputType="textPersonName"
         android:ems="10"
         android:id="@+id/editText"
-        android:layout_above="@+id/calendarView2"
-        android:layout_alignStart="@+id/button7" />
+        android:layout_above="@+id/calendarView2"></EditText>
+        <!--android:layout_alignStart="@+id/button7"/>-->
+
+    <!--<Button-->
+        <!--android:text="HTML"-->
+        <!--android:layout_height="50dp"-->
+        <!--android:id="@+id/button7"-->
+        <!--android:background="@drawable/buttonframe"-->
+        <!--android:layout_width="80dp"-->
+        <!--android:layout_marginStart="28dp"-->
+        <!--android:layout_alignTop="@+id/button"-->
+        <!--android:layout_alignParentStart="true" />-->
+
+    <CalendarView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/calendarView2"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="plan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/plan"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="31dp" />
+
+    <Button
+        android:text="Weather"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/button"
+        android:background="@drawable/weatherbutton"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="실시간"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:id="@+id/button6"
+        tools:background="@drawable/buttonframe2"
+        android:background="@drawable/buttonframe2"
+        android:layout_alignParentTop="true"
+        android:layout_alignEnd="@+id/calendarView2"
+        android:layout_marginEnd="21dp" />
 
 </RelativeLayout>

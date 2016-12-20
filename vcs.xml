@@ -14,8 +14,12 @@
           <option name="url" value="https://github.com/roomorama/Caldroid.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/kdhx92/Android_ListView_Test.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="C:\Users\user\Desktop\botduo" />
+    <option name="cloneParentDir" value="C:\Users\user\Desktop\botduo2" />
   </component>
 </application>
