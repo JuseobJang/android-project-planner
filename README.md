@@ -59,7 +59,7 @@
 
 Icon image
 
-<img src ="https://github.com/wntjq68/BOTDUO/blob/master/Protocol%20picture/Icon%20Image.png?raw=true" height="400"> <img src ="https://github.com/wntjq68/BOTDUO/blob/master/Protocol%20picture/Icon%20Image%20in%20phone.jpeg?raw=true" height="400">
+<img src ="https://github.com/wntjq68/BOTDUO/blob/master/Protocol%20picture/Icon%20Image.png?raw=true" height="200"> <img src ="https://github.com/wntjq68/BOTDUO/blob/master/Protocol%20picture/Icon%20Image%20in%20phone.jpeg?raw=true" height="400">
 
 Intro
 
